@@ -1,0 +1,10 @@
+version: "3.7"
+
+services:
+    yarb-telegram-consumer:
+        build: .
+        restart: always
+        env_file:
+            - ./.env
+        ports:
+          - 8070:8070

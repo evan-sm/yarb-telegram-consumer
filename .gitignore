@@ -1,0 +1,7 @@
+.env
+google_app_creds_yarb.json
+1/
+go.mod
+go.sum
+
+.dockerignore
